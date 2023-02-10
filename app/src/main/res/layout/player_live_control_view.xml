@@ -4,13 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <FrameLayout
-        android:id="@+id/tv_pause_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:tag="vod_control_pause"
-        android:visibility="gone"
-        tools:visibility="visible">
+
 
         <LinearLayout
             android:id="@+id/top_container_hide"
@@ -120,6 +114,14 @@
             </LinearLayout>
 
         </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/tv_pause_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="vod_control_pause"
+        android:visibility="gone"
+        tools:visibility="visible">
 
         <LinearLayout
             android:id="@+id/top_container"
